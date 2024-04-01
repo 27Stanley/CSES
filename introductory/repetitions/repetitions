@@ -1,0 +1,9 @@
+function repetitions() {}
+
+module.exports = repetitions;
+
+//given a dna sequence, a string consisting of characters ACGT. Find the longest repetition in the sequence.
+//maximum length of a substring containing one type of character.
+
+//the only input being a string of n characters
+//returns/prints one integer with the length of the longest repetition
