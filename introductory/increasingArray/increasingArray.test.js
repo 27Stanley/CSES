@@ -38,4 +38,10 @@ describe("increasingArray problem", () => {
     const output = 2;
     expect(increasingArray(arraySizeInput, arrayInput)).toBe(output);
   });
+  test("returns correct increment if five element array passed is not increasing", () => {
+    const arraySizeInput = 5;
+    const arrayInput = [5, 1, 1, 3, 5];
+    const output = 10;
+    expect(increasingArray(arraySizeInput, arrayInput)).toBe(output);
+  });
 });

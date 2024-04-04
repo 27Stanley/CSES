@@ -13,8 +13,8 @@ function increasingArray(arraySize, arrayOfIntegers) {
       }`
     );
     if (arrayClone[i] < arrayClone[i - 1]) {
-      counter++;
-      arrayClone[i] += 1;
+      counter += arrayClone[i - 1] - arrayClone[i];
+      arrayClone[i] = arrayClone[i - 1];
     }
   }
   return counter;
