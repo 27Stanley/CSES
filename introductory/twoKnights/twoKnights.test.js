@@ -1,0 +1,1 @@
+const twoKnights = require("./twoKnights");
